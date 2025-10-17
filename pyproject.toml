@@ -1,0 +1,11 @@
+[project]
+name = "gemini-flash-tts-training"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "auto-py-to-exe>=2.48.1",
+    "google-genai>=1.45.0",
+    "pydub>=0.25.1",
+]

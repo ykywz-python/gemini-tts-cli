@@ -1,0 +1,20 @@
+{
+    // Ini memberi tahu VS Code interpreter default untuk proyek ini.
+    // Sangat disarankan untuk menjaga ini tetap ada.
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+
+    // Konfigurasi Code Runner
+    "code-runner.executorMap": {
+        // Gunakan variabel Code Runner '$pythonPath'
+        // "python": "$pythonPath $fullFileName",
+        "python": "$pythonPath main.py",
+    },
+    // Pastikan Code Runner menggunakan terminal, bukan hanya panel output
+    "code-runner.runInTerminal": true,
+    // Pastikan Code Runner membersihkan terminal setiap kali
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/.venv/Lib/site-packages/" 
+    ]
+}
