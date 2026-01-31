@@ -69,7 +69,3 @@ ikuti intruksi ini untuk mengkompilasinya menjadi executable:
 ## ⬇️ Unduh Executable
 
 [Mediafire](https://www.mediafire.com/file/qv6hk5dw3neinj8/gtts-cli.zip/file)
-
-## Beri Dukungan
-
-[![Buka Halaman Donasi](https://irfanykywz.github.io/donate/donate.png)](https://irfanykywz.github.io/donate/)
